@@ -17,8 +17,14 @@
 
   .viewport-container{
     display: flex;
+    
   }
 
+
+
+  /******* aside-bar *******/
+
+  
 
   .aside-bar{
     background-color: black;
@@ -31,4 +37,35 @@
   .aside-fa{
     color: white;
     margin: 10px 10px;
+    
+    align-self: center;
+  }
+
+
+  /******* main *******/
+
+  
+  main{
+    width: 90%;
+  }
+  /*** header***/
+  
+  
+  header{
+    background-color:#080b12 ;
+    opacity: 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding:20px;
+    
+  }
+
+  #header-button{
+    background-color: #080b12;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 50%;
   }
