@@ -197,8 +197,66 @@
     width: 100%;
   }
 
+  
+.footer-container{
+    padding: 15px;
+    column-gap: 5px;
+}
 
 
+footer h2{
+    color: white;
+    font-size: 1rem;
+
+}
+
+footer h3{
+    color: #7b7d82 ;
+    font-size: 0.8rem;
+    
+}
+
+
+
+
+footer div div i{
+    color: #7b7d82;
+}
+
+
+
+
+
+.player i{
+    color: white;
+    align-self: center;
+    padding: 10px;
+}
+
+
+
+#player-counter{
+    width: 70%;
+    height: 5px;
+    background-color: #7b7d82;
+    align-self: center;
+}
+
+
+
+span{
+    color: white;
+    align-self: center;
+}
+
+
+
+#player-bar{
+  width: 20%;
+  color: red;
+  height: 100%;
+    
+}
 
 /**************************************************************************/
 
@@ -233,3 +291,14 @@
     text-align: center;
 
 }
+
+
+
+
+.between{
+    justify-content: space-between;
+}
+
+
+
+
