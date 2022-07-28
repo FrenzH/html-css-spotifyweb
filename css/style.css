@@ -28,9 +28,10 @@
 
   .aside-bar{
     background-color: black;
-    width: 10%;
+    width: 8vh;
     display: flex;
     flex-direction: column;
+    height: 100vh;
    
   }
 
@@ -46,9 +47,13 @@
 
   
   main{
-    width: 90%;
+    width: calc(100% - 8vh);
+    background-color: #141922;
+    
   }
-  /*** header***/
+
+
+  /*** Header***/
   
   
   header{
@@ -68,4 +73,138 @@
     border-radius: 15px;
     padding: 10px;
     width: 50%;
+    cursor: pointer;
   }
+
+
+
+  /*** Menu-section ***/
+
+
+  
+  .a-menu{
+    color: #7c7e83;
+    text-decoration: none;
+    padding: 0 8px;
+  }
+
+
+  
+  #Menu div div{
+    padding:20px 0;
+    
+  }
+
+
+
+  /*** RecentlyPlayed-section ***/
+
+  
+  #RecentlyPlayed h1,#RecentlyPlayed div div{
+    padding: 20px 20px;
+    color: white;
+  }
+
+  
+  #RecentlyPlayed div h2{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    
+  }
+
+  
+  #RecentlyPlayed h3{
+    color: #7b7d82;
+    
+    font-size: 1rem;
+
+
+  }
+
+
+.w{
+    width: calc(100% / 2);
+    
+   
+}
+
+
+
+/*** For-You-section ***/
+
+
+.w-For-You{
+    width: calc(100% / 2);
+
+}
+
+
+ #For-You h1,#For-You div div{
+    padding: 20px 20px;
+    color: white;
+}
+
+ .foryouh2{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    
+  }
+
+
+ #For-You h3{
+    color: #7b7d82;
+    
+    font-size: 1rem;
+    padding-left: 20px;
+
+
+  }
+
+
+
+
+  /*** Popular-Artists-section ***/
+
+  
+
+
+
+
+
+
+
+
+
+/**************************************************************************/
+
+
+/******** UTILITIES ********/
+
+
+/**** Flex ****/
+
+.flex{
+    display: flex;
+}
+
+
+.wrap{
+    flex-wrap: wrap;
+
+}
+
+.center{
+    justify-content: center;
+}
+
+
+.column{
+    flex-direction: column;
+}
+
+
+
+.text-center{
+    text-align: center;
+
+}
