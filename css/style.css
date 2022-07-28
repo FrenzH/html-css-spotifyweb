@@ -10,13 +10,14 @@
     width: 100%;
   }
 
-
-  /*************** BODY ***************/
+/************************************************************************************************/
+  /******************** BODY ********************/
 
   /******** VIEWPORT-CONTAINER ********/
 
   .viewport-container{
     display: flex;
+    height: 90vh;
     
   }
 
@@ -28,10 +29,11 @@
 
   .aside-bar{
     background-color: black;
-    width: 8vh;
+    
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    flex-grow: 1;
+    
    
   }
 
@@ -47,8 +49,12 @@
 
   
   main{
-    width: calc(100% - 8vh);
+    width: 100%;
     background-color: #141922;
+    flex-grow: 1;
+    height: 100%;
+    overflow-y: scroll;
+    
     
   }
 
@@ -58,10 +64,13 @@
   
   header{
     background-color:#080b12 ;
-    opacity: 90%;
+    opacity: 95%;
     display: flex;
     justify-content: flex-end;
     padding:20px;
+    position: fixed;
+    width: calc(100% - 56px);
+    
     
   }
 
@@ -81,7 +90,11 @@
   /*** Menu-section ***/
 
 
+
   
+  #Menu{
+    margin-top: 100px;
+  }
   .a-menu{
     color: #7c7e83;
     text-decoration: none;
@@ -165,12 +178,24 @@
 
   /*** Popular-Artists-section ***/
 
+
+
+
+
+
+
+
+
+  /*********** Footer ***********/
+
   
-
-
-
-
-
+  footer{
+    background-color:#282828;
+    height: 10vh;
+    
+   
+    width: 100%;
+  }
 
 
 
