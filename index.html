@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -21,11 +24,27 @@
 
 
             <!-- ASIDE-BAR -->
-            <div class="aside-bar">
-                <i class="fa-brands fa-spotify aside-fa"></i>
-                <i class="fa-solid fa-house aside-fa"></i>
-                <i class="fa-solid fa-magnifying-glass aside-fa"></i>
-                <i class="fa-solid fa-bars aside-fa"></i>
+            <div class="aside-bar flex column between">
+                <div>
+                    <img src="img/logo-small.svg " alt="">
+                    <img src="img/home.svg" alt="">
+                    <img src="img/search.svg" alt="">
+                    <img src="img/libreria.svg" alt="">
+                </div>
+                <div>
+                    <img id="download-img"  src="img/download.svg" alt="">
+                    
+                    <div class="flex center" id="profile-container"><img src="img/profile.svg" alt=""></div>
+                    
+
+
+
+
+                </div>
+                
+                
+                
+                
 
             </div>
 
@@ -260,7 +279,7 @@
 
         </div>
         <footer class="flex between">
-            <div  class="flex " >
+            <div  class="flex w-footer" >
                 <div class="flex footer-container">
                     <img src="img/sinister.jpeg" alt="">
                     <div class="flex column center">
@@ -279,7 +298,7 @@
             </div>
 
 
-            <div>
+            <div id="w-player-footer">
                 <div class="flex center player">
                     <i class="fa-solid fa-shuffle"></i>
                     <i class="fa-solid fa-backward-step"></i>
@@ -292,9 +311,9 @@
                 </div>
                 <div class="flex center">
 
-                    <span>0:25</span>
+                    <span class="">0:25</span>
 
-                    <div id="player-counter">
+                    <div  id="player-counter">
                         <div id="player-bar"></div>
 
 
@@ -314,12 +333,21 @@
 
 
 
-            <div>
+            <div class="flex w-footer">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div id="volume-counter">
+                    <div id="volume-bar"></div>
+
+                </div>
+
+
+
+
 
             </div>
-            <div>
-
-            </div>
+            
 
 
 

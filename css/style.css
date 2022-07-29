@@ -10,6 +10,11 @@
     width: 100%;
   }
 
+
+  
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
 /************************************************************************************************/
   /******************** BODY ********************/
 
@@ -29,27 +34,44 @@
 
   .aside-bar{
     background-color: black;
-    
+    width: 8vh;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    padding: 16px;
     
    
   }
 
-  .aside-fa{
-    color: white;
-    margin: 10px 10px;
-    
-    align-self: center;
+  
+  .aside-bar div img{
+    padding: 5px 0;
   }
 
 
+  
+  #profile-container{
+    clip-path: circle(50%);
+    background-color: #808080;
+  }
+
+  
+  #profile-container img{
+    width: 60%;
+    text-align: center;
+  }
+
+
+  
+  #download-img{
+    width: 80%;
+    padding: 0 0 10px 5px;
+  }
   /******* main *******/
 
   
   main{
-    width: 100%;
+    width: calc(100% - 8vh);
     background-color: #141922;
     flex-grow: 1;
     height: 100%;
@@ -64,12 +86,12 @@
   
   header{
     background-color:#080b12 ;
-    opacity: 95%;
+    opacity: 60%;
     display: flex;
     justify-content: flex-end;
     padding:20px;
     position: fixed;
-    width: calc(100% - 56px);
+    width: calc(100%);
     
     
   }
@@ -83,6 +105,7 @@
     padding: 10px;
     width: 50%;
     cursor: pointer;
+    margin-right: 100px;
   }
 
 
@@ -193,6 +216,7 @@
     background-color:#282828;
     height: 10vh;
     
+    
    
     width: 100%;
   }
@@ -201,18 +225,19 @@
 .footer-container{
     padding: 15px;
     column-gap: 5px;
+    
 }
 
 
 footer h2{
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 footer h3{
     color: #7b7d82 ;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     
 }
 
@@ -236,10 +261,11 @@ footer div div i{
 
 
 #player-counter{
-    width: 70%;
+    width: 60%;
     height: 5px;
     background-color: #7b7d82;
     align-self: center;
+    margin: 0 5px 0 5px;
 }
 
 
@@ -247,15 +273,44 @@ footer div div i{
 span{
     color: white;
     align-self: center;
+    font-size: 0.7rem;
+    
 }
 
 
 
 #player-bar{
   width: 20%;
-  color: red;
+  background-color: #c1c1c1;
   height: 100%;
     
+}
+
+
+
+#volume-counter {
+  width: 40%;
+  height: 5px;
+  background-color: #7b7d82;
+  
+}
+
+
+#volume-bar{
+  width: 20%;
+  height: 100%;
+  background-color: #c1c1c1;
+
+}
+
+
+.w-footer{
+  width: 25%;
+}
+
+
+#w-player-footer{
+  width: 50%;
 }
 
 /**************************************************************************/
@@ -299,6 +354,11 @@ span{
     justify-content: space-between;
 }
 
+
+
+.start{
+  justify-content: flex-start;
+}
 
 
 
