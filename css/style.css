@@ -224,7 +224,7 @@
   
 .footer-container{
     padding: 15px;
-    column-gap: 5px;
+    column-gap: 10px;
     
 }
 
@@ -289,9 +289,10 @@ span{
 
 
 #volume-counter {
-  width: 40%;
+  width: 60%;
   height: 5px;
   background-color: #7b7d82;
+  
   
 }
 
@@ -312,6 +313,17 @@ span{
 #w-player-footer{
   width: 50%;
 }
+
+
+i{
+  color: white;
+}
+
+
+
+
+
+
 
 /**************************************************************************/
 
@@ -359,6 +371,20 @@ span{
 .start{
   justify-content: flex-start;
 }
+
+
+
+.align-center{
+  
+  align-self: center;
+}
+
+
+
+.end{
+  justify-content:flex-end;
+}
+
 
 
 
