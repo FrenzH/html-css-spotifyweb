@@ -8,6 +8,7 @@
   
   img{
     width: 100%;
+    
   }
 
 
@@ -35,8 +36,8 @@
   .aside-bar{
     background-color: black;
     width: 8vh;
-    display: flex;
-    flex-direction: column;
+    
+    
     flex-grow: 1;
     padding: 16px;
     
@@ -44,9 +45,23 @@
   }
 
   
-  .aside-bar div img{
+  .aside-bar div div img{
     padding: 5px 0;
   }
+
+
+
+
+  
+  #aside-bar-menuxs{
+    height:100%
+  }
+
+
+
+
+
+
 
 
   
@@ -99,13 +114,14 @@
   #header-button{
     background-color: #080b12;
     border-style: solid;
+    
     border-color: white;
     color: white;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 10px;
-    width: 50%;
+    width: 200px;
     cursor: pointer;
-    margin-right: 100px;
+    margin-right: 60px;
   }
 
 
@@ -203,6 +219,43 @@
 
 
 
+  
+  .w-Artists{
+    width: calc(100% / 2);
+  }
+
+
+  #Popular-Artists h1,#Popular-Artists div div div {
+    padding: 20px 20px;
+    color: white;
+    
+}
+
+  .artisth2{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: white;
+    
+    
+    
+  }
+
+
+  #Popular-Artists h3{
+    color: #7b7d82;
+    
+    font-size: 1rem;
+    padding-left: 20px;
+
+
+  }
+
+
+
+  
+  .circle{
+    clip-path: circle(40%);
+  }
 
 
 
@@ -223,7 +276,7 @@
 
   
 .footer-container{
-    padding: 15px;
+    padding: 15px 8px;
     column-gap: 10px;
     
 }
@@ -306,12 +359,12 @@ span{
 
 
 .w-footer{
-  width: 25%;
+  width: 30%;
 }
 
 
 #w-player-footer{
-  width: 50%;
+  width: 40%;
 }
 
 
@@ -387,4 +440,84 @@ i{
 
 
 
+.grow{
+  flex-grow: 1;
+  
+}
+
+/**********************************************************************************/
+
+/******** MEDIA-QUERY ********/
+
+
+
+
+
+@media screen and (max-width:576px){
+  #aside-bar-menu{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:576px){
+
+
+
+  
+  #aside-bar-menuxs{
+
+    display: none;
+
+  }
+
+  
+  #aside-bar-menu{
+    display: flex;
+  }
+
+
+
+
+  .aside-bar{
+    width:27vh;
+    
+  }
+  main{
+    width: calc(100% - 27vh);
+  
+  }
+  
+  #header-button{
+    margin-right: 200px;
+  }
+
+}
+
+
+
+@media screen and (min-width:768px)  {
+
+  
+  .w,.w-For-You,.w-Artists{
+    width: calc(100% / 4);
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width:992px){
+  .w,.w-For-You,.w-Artists{
+    width: calc(100% / 6);
+  }
+
+}
 
