@@ -59,6 +59,41 @@
 
 
 
+  
+  #logo{
+    width: 80%;
+    height: 80%;
+  }
+
+
+
+  
+  .img-bar-menu{
+    width: 15% ;
+    
+  }
+
+  
+  #playlist h2{
+  color: white;
+  font-size: 0.9rem;
+  padding-top: 20px;
+  }
+
+  
+  #plus-container{
+    width: 30px;
+    height: 30px;
+    background-color:#a3a3a3;
+    margin-right: 10px;
+  }
+
+  
+  .fa-plus{
+    color: black;
+  }
+
+
 
 
 
@@ -328,6 +363,7 @@ span{
     align-self: center;
     font-size: 0.7rem;
     
+    
 }
 
 
@@ -520,4 +556,5 @@ i{
   }
 
 }
+
 
